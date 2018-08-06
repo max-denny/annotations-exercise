@@ -19,7 +19,7 @@ public class Author extends Person {
     public List<String> getBooks() {
         return books;
     }
-
+    @Deprecated
     public List<String> publishedBooks() {
         return books;
     }
